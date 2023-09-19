@@ -1,0 +1,35 @@
+.cart {
+    padding-top: 100px;
+    h2 {
+        // padding-top: 100px;
+    }
+    &__table{
+        &_img {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    }
+
+    &__td {
+        display: flex;
+        align-items: center;
+
+        &_btns {
+            width: 50px;
+            margin-left: 20px;
+            display: flex;
+            justify-content: space-between;
+            
+            &-btn {
+                padding: 3px;
+                border: none;
+                border-radius: 5px;
+
+                &:hover {
+                    background-color: rgb(67, 206, 99);
+                }
+            }
+        }
+    }
+}
